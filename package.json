@@ -10,7 +10,8 @@
     "promise-all": "tsx src/promise-all/promise-all.ts",
     "promise-all-settle": "tsx src/promise-all/promise-all-settle.ts",
     "bubble-sort": "tsx src/sorting/bubble.ts",
-    "deep-copy": "tsx src/deep-copy/deep-copy.ts"
+    "deep-copy": "tsx src/deep-copy/deep-copy.ts",
+    "oop": "tsx src/oop/main.ts"
   },
   "keywords": [],
   "author": "",
