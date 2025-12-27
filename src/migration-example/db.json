@@ -1,0 +1,10 @@
+{
+  "schema": {
+    "fields": [
+      "id",
+      "name"
+    ]
+  },
+  "migrations": [],
+  "users": []
+}

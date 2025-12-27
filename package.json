@@ -1,0 +1,25 @@
+{
+  "name": "advanced dev topics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/http/app.ts",
+    "events": "tsx src/events/events-runner.ts",
+    "debounce": "tsx src/debounce/debounce.ts",
+    "promise-all": "tsx src/promise-all/promise-all.ts",
+    "promise-all-settle": "tsx src/promise-all/promise-all-settle.ts",
+    "bubble-sort": "tsx src/sorting/bubble.ts",
+    "deep-copy": "tsx src/deep-copy/deep-copy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
