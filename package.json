@@ -4,23 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx src/http/app.ts",
+    "dev": "vite",
     "events": "tsx src/events/events-runner.ts",
     "debounce": "tsx src/debounce/debounce.ts",
     "promise-all": "tsx src/promise-all/promise-all.ts",
     "promise-all-settle": "tsx src/promise-all/promise-all-settle.ts",
     "bubble-sort": "tsx src/sorting/bubble.ts",
     "deep-copy": "tsx src/deep-copy/deep-copy.ts",
-    "oop": "tsx src/oop/main.ts"
+    "oop": "tsx src/oop/main.ts",
+    "fib": "tsx src/fib/fib.ts",
+    "binary-tree": "tsx src/binary-tree/binary-tree.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "tsx": "^4.21.0"
+    "tsx": "^4.21.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^25.0.3"
+    "@types/node": "^25.0.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0",
+    "typescript": "^5.0.0"
   }
 }
