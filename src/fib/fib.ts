@@ -1,9 +1,15 @@
+// O(2^n) time complexity
+// O(n) space complexity - call stack
 export const fib = (n: number): number => {
-    if (n <= 1) return n;
+    if (n <= 1) {
+        return n;
+    }
 
     return fib(n - 1) + fib(n - 2);
 }
 
+// O(n) time complexity
+// O(n) space complexity - call stack
 export const fibMemo = (n: number, memo: Record<number, number> = {}): number => {
     if (n <= 1) return n;
     if (memo[n]) return memo[n];
@@ -11,6 +17,7 @@ export const fibMemo = (n: number, memo: Record<number, number> = {}): number =>
     return memo[n];
 }
 
+// O(n) time complexity
 export const fibMapRecord = (n: number): number => {
     const memo = new Map<number, number>();
     memo.set(0, 0);
@@ -23,15 +30,15 @@ export const fibMapRecord = (n: number): number => {
 
 const main = () => {
     console.time('fib');
-    console.log(fib(10));
+    console.log(fib(42));
     console.timeEnd('fib');
 
     console.time('fibMemo');
-    console.log(fibMemo(10));
+    console.log(fibMemo(100));
     console.timeEnd('fibMemo');
 
     console.time('fibMapRecord');
-    console.log(fibMapRecord(10));
+    console.log(fibMapRecord(100));
     console.timeEnd('fibMapRecord');
 }
 

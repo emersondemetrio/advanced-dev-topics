@@ -13,7 +13,9 @@
     "deep-copy": "tsx src/deep-copy/deep-copy.ts",
     "oop": "tsx src/oop/main.ts",
     "fib": "tsx src/fib/fib.ts",
-    "binary-tree": "tsx src/binary-tree/binary-tree.ts"
+    "binary-tree": "tsx src/binary-tree/binary-tree.ts",
+    "factorial": "tsx src/factorial/factorial.ts",
+    "all-binary-strings": "tsx src/all-binary-strings/all-binary-strings.ts"
   },
   "keywords": [],
   "author": "",
