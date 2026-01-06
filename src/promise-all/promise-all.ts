@@ -34,11 +34,8 @@ const p1 = httpPromise("https://jsonplaceholder.typicode.com/todos/1")
 const p2 = httpPromise("https://jsonplaceholder.typicsdode.com/todos/2")
 
 const main = async () => {
-    const result = await Promise.all([p1, p2])
-    Promise.allSettled
-
-
-
+    // Compare with Promise.all([p1, p2])
+    const result = await promiseAll([p1, p2])
     console.log('result', result);
 
 }

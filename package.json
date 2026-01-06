@@ -15,7 +15,8 @@
     "fib": "tsx src/fib/fib.ts",
     "binary-tree": "tsx src/binary-tree/binary-tree.ts",
     "factorial": "tsx src/factorial/factorial.ts",
-    "all-binary-strings": "tsx src/all-binary-strings/all-binary-strings.ts"
+    "all-binary-strings": "tsx src/all-binary-strings/all-binary-strings.ts",
+    "two-sum": "tsx src/leet-code/two-sum/solution.ts"
   },
   "keywords": [],
   "author": "",
